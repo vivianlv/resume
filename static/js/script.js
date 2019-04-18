@@ -35,7 +35,7 @@ jQuery(document).ready(function($) {
         portrait_modal.open();
     });
     $('[data-remodal-id=portrait-modal] button').click(function(event) {
-        $(".portrait").css('background-image', 'url("{0}")'.format($("#avatar-url").val()));
+        $(".portrait").css('background-image', 'url("{1}")'.format($("#avatar-url").val()));
     });
     var weixin_modal = $('[data-remodal-id=weixin-modal]').remodal();
     $(".weixin").click(function(event) {
